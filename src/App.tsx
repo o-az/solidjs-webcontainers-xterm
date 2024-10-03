@@ -78,6 +78,7 @@ export function App() {
       <h1>WebContainer Shell</h1>
       <sub>available tools: Node.js, npm</sub>
       <div ref={terminalRef} class="terminal-container"></div>
+      <iframe class="hidden" allow="cross-origin-isolated"></iframe>
     </div>
   );
 }
