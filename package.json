@@ -1,0 +1,30 @@
+{
+  "name": "solidjs-xterm-demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "solid-js": "^1.8.22",
+    "@xterm/xterm": "latest",
+    "@xterm/addon-fit": "latest",
+    "@xterm/addon-clipboard": "latest",
+
+    "xterm-pty": "latest",
+    "@xterm/addon-image": "latest",
+    "@xterm/addon-ligatures": "latest",
+    "@xterm/addon-serialize": "latest",
+    "@xterm/addon-web-links": "latest",
+    "@xterm/addon-webgl": "latest",
+    "@webcontainer/api": "^1.1.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3",
+    "vite": "^5.4.2",
+    "vite-plugin-solid": "^2.10.2"
+  }
+}
