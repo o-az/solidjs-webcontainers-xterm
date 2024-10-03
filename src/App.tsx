@@ -8,8 +8,8 @@ import { xTermTheme } from './theme.ts';
 
 export function App() {
   let terminalRef: HTMLDivElement | undefined;
-  const [terminal, setTerminal] = createSignal<Terminal | null>(null);
-  const [webcontainerInstance, setWebcontainerInstance] =
+  const [_terminal, setTerminal] = createSignal<Terminal | null>(null);
+  const [_webcontainerInstance, setWebcontainerInstance] =
     createSignal<WebContainer | null>(null);
 
   async function startShell(

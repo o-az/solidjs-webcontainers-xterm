@@ -13,7 +13,6 @@
     "@xterm/xterm": "latest",
     "@xterm/addon-fit": "latest",
     "@xterm/addon-clipboard": "latest",
-
     "xterm-pty": "latest",
     "@xterm/addon-image": "latest",
     "@xterm/addon-ligatures": "latest",
